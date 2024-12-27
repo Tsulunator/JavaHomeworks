@@ -3,7 +3,7 @@ package N2;
 public class Rectangle extends Shape{
 
     public Rectangle(double x, double y){
-        super(x, y); // Use x as length and y as width
+        super(x, y);
     }
 
     public double calculatePerimeter(){
