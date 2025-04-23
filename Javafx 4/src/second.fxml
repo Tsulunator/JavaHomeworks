@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="Second" prefWidth="600.0" prefHeight="450.0">
+    <children>
+        <Label layoutX="200.0" layoutY="20.0" text="What kind of greeting card do you want?" />
+        <CheckBox fx:id="balloonCheck" layoutX="50.0" layoutY="60.0" text="Balloons"/>
+        <CheckBox fx:id="heartCheck" layoutX="250.0" layoutY="60.0" text="Hearts"/>
+        <CheckBox fx:id="starCheck" layoutX="450.0" layoutY="60.0" text="Stars"/>
+        <Button layoutX="250.0" layoutY="100.0" text="Generate" onAction="#generateCard"/>
+        <Canvas fx:id="canvas" layoutX="50.0" layoutY="150.0" width="500.0" height="250.0"/>
+    </children>
+</AnchorPane>
